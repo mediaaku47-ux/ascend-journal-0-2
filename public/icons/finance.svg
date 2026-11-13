@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none">
+  <!-- Soft Mint-Cyan Circular Disk -->
+  <circle cx="60" cy="60" r="54" fill="#9FE0F6" />
+
+  <!-- Soft Shadow under coins and cash -->
+  <ellipse cx="60" cy="101" rx="36" ry="3" fill="#84CCE2" opacity="0.6" />
+
+  <!-- Back Banknote 1 -->
+  <rect x="36" y="43" width="52" height="29" rx="3" fill="#2E7D32" stroke="#16381A" stroke-width="2.2" />
+
+  <!-- Back Banknote 2 -->
+  <rect x="38" y="46" width="52" height="29" rx="3" fill="#388E3C" stroke="#16381A" stroke-width="2.2" />
+
+  <!-- Front Banknote -->
+  <rect x="42" y="50" width="52" height="30" rx="3.5" fill="#4CAF50" stroke="#16381A" stroke-width="2.2" />
+  
+  <!-- Banknote Inner Border Line -->
+  <rect x="46" y="54" width="44" height="22" rx="2" fill="none" stroke="#2E7D32" stroke-width="1.4" />
+
+  <!-- Center Dollar Circle & Symbol -->
+  <circle cx="68" cy="65" r="7" fill="#4CAF50" stroke="#16381A" stroke-width="1.8" />
+  <text x="68" y="69.5" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="bold" font-size="11" fill="#16381A">$</text>
+
+  <!-- Horizontal underline detail on base -->
+  <line x1="56" y1="84" x2="92" y2="84" stroke="#16381A" stroke-width="2.2" stroke-linecap="round" />
+  <line x1="71" y1="87" x2="87" y2="87" stroke="#16381A" stroke-width="1.8" stroke-linecap="round" />
+
+  <!-- Stack of Coins (Left) -->
+  <rect x="25" y="77" width="22" height="6" rx="3" fill="#EAA81D" stroke="#16381A" stroke-width="2" />
+  <rect x="25" y="71.5" width="22" height="6" rx="3" fill="#F4B728" stroke="#16381A" stroke-width="2" />
+  <rect x="25" y="66" width="22" height="6" rx="3" fill="#EAA81D" stroke="#16381A" stroke-width="2" />
+  <rect x="25" y="60.5" width="22" height="6" rx="3" fill="#F7CA4C" stroke="#16381A" stroke-width="2" />
+  <rect x="25" y="55" width="22" height="6" rx="3" fill="#FCE179" stroke="#16381A" stroke-width="2" />
+
+  <!-- Small Coin Stack (Right of first stack) -->
+  <rect x="46" y="76" width="13" height="5" rx="2.5" fill="#EAA81D" stroke="#16381A" stroke-width="1.8" />
+  <rect x="46" y="71.5" width="13" height="5" rx="2.5" fill="#FCE179" stroke="#16381A" stroke-width="1.8" />
+</svg>

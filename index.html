@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="id" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('ascend_theme');
+          var theme = (saved === 'dark') ? 'dark' : 'light';
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          } else {
+            document.documentElement.classList.add('light');
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('light');
+        }
+      })();
+    </script>
+    <title>Ascend Journal – Jurnal Produktivitas | Kamal Izudin</title>
+    <meta name="description" content="Kelola agenda harian, kebiasaan, target, keuangan, dan catatan dengan Ascend Journal. Dikembangkan oleh Kamal Izudin (kamalizudin36@gmail.com)." />
+    <meta name="author" content="Kamal Izudin" />
+    <meta name="creator" content="Kamal Izudin" />
+    <meta name="publisher" content="Kamal Izudin" />
+    <meta name="contact" content="kamalizudin36@gmail.com" />
+    <meta name="keywords" content="Ascend Journal, Kamal Izudin, aplikasi produktivitas, jurnal harian, pelacak kebiasaan, agenda harian, pencatatan keuangan" />
+    <link rel="canonical" id="canonical-link" href="/" />
+    <meta property="og:site_name" content="Ascend Journal" />
+    <meta property="og:title" content="Ascend Journal – Jurnal Produktivitas | Kamal Izudin" />
+    <meta property="og:description" content="Kelola agenda harian, kebiasaan, target, keuangan, dan catatan dengan Ascend Journal. Dikembangkan oleh Kamal Izudin (kamalizudin36@gmail.com)." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:url" id="og-url-meta" content="/" />
+    <meta property="og:image" content="/logo.png" />
+    <meta property="og:author" content="Kamal Izudin" />
+    <meta property="og:creator" content="Kamal Izudin" />
+    <meta property="og:email" content="kamalizudin36@gmail.com" />
+    <meta property="article:author" content="Kamal Izudin" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ascend Journal – Jurnal Produktivitas | Kamal Izudin" />
+    <meta name="twitter:description" content="Kelola agenda harian, kebiasaan, target, keuangan, dan catatan dengan Ascend Journal. Dikembangkan oleh Kamal Izudin (kamalizudin36@gmail.com)." />
+    <meta name="twitter:creator" content="Kamal Izudin" />
+    <meta name="twitter:image" content="/logo.png" />
+    <script>
+      (function() {
+        try {
+          var currentUrl = window.location.origin + window.location.pathname;
+          var canonical = document.getElementById('canonical-link');
+          var ogUrl = document.getElementById('og-url-meta');
+          if (canonical) canonical.setAttribute('href', currentUrl);
+          if (ogUrl) ogUrl.setAttribute('content', currentUrl);
+        } catch (e) {}
+      })();
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["SoftwareApplication", "WebApplication"],
+          "name": "Ascend Journal",
+          "alternateName": "Ascend Journal - Dashboard Produktivitas",
+          "applicationCategory": "ProductivityApplication",
+          "operatingSystem": "All",
+          "inLanguage": "id-ID",
+          "description": "Aplikasi produktivitas dan jurnal harian Ascend Journal dengan pelacak agenda harian, target pencapaian, pelacak kebiasaan, ringkasan finansial, dan catatan cepat.",
+          "author": {
+            "@id": "#developer-kamal-izudin"
+          },
+          "creator": {
+            "@id": "#developer-kamal-izudin"
+          },
+          "publisher": {
+            "@id": "#developer-kamal-izudin"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "#developer-kamal-izudin",
+          "name": "Kamal Izudin",
+          "email": "mailto:kamalizudin36@gmail.com",
+          "jobTitle": "Software Developer",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "business inquiries and collaboration",
+            "email": "kamalizudin36@gmail.com",
+            "availableLanguage": ["Indonesian", "English"]
+          }
+        }
+      ]
+    }
+    </script>
+    <meta name="theme-color" content="#0d0d12" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Ascend Journal" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/pwa-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/pwa-512x512.png" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="shortcut icon" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="msapplication-TileImage" content="/pwa-512x512.png" />
+    <meta name="msapplication-TileColor" content="#0d0d12" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;600;700&family=Playfair+Display:wght@500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;600;700&family=Playfair+Display:wght@500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
+    </noscript>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      html.dark, html.dark body {
+        background-color: #090D16;
+        color: #ffffff;
+      }
+      html.light, html.light body {
+        background-color: #ffffff;
+        color: #0f172a;
+      }
+    </style>
+  </head>
+  <body class="antialiased min-h-screen selection:bg-sky-500/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

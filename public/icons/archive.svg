@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none">
+  <!-- Dark Slate Circular Disk with refined softer shade -->
+  <circle cx="60" cy="60" r="54" fill="#334155" />
+
+  <!-- Back Folder Tab (Golden Yellow) -->
+  <path d="M26 44C26 40.6863 28.6863 38 32 38H48L54 44H88C91.3137 44 94 46.6863 94 50V78H26V44Z" fill="#D97706" />
+
+  <!-- Back Paper Sheet (Light Slate) -->
+  <rect x="36" y="27" width="48" height="42" rx="4" fill="#E2E8F0" />
+  
+  <!-- Front Paper Sheet (White) -->
+  <rect x="33" y="31" width="48" height="42" rx="4" fill="#FFFFFF" />
+  <!-- Ruled Text Lines on Front Document -->
+  <rect x="38" y="37" width="38" height="2.5" rx="1.2" fill="#94A3B8" />
+  <rect x="38" y="43" width="38" height="2.5" rx="1.2" fill="#94A3B8" />
+  <rect x="38" y="49" width="38" height="2.5" rx="1.2" fill="#94A3B8" />
+
+  <!-- Front Folder Pocket (Warm Amber Yellow) with smooth curves -->
+  <path d="M25 57C25 53.6863 27.6863 51 31 51H51C53 51 55 53 57 55L61 58H89C92.3137 58 95 60.6863 95 64V84C95 87.3137 92.3137 90 89 90H31C27.6863 90 25 87.3137 25 84V57Z" fill="#F59E0B" />
+</svg>

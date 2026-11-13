@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Proteksi endpoint internal API
+Disallow: /api/

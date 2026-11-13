@@ -1,0 +1,19 @@
+# Ascend Journal
+
+> Ascend Journal adalah aplikasi web produktivitas harian komprehensif, pelacak kebiasaan (habit tracker), manajemen jadwal & agenda, pencatatan keuangan & tabungan, serta refleksi pertumbuhan diri.
+
+## Modul & Fitur Utama
+
+- [Dasbor Produktivitas](/): Ringkasan metrik harian, agenda aktif, dan tingkat konsistensi.
+- [Agenda Harian](/): Manajemen tugas, prioritas jadwal, dan integrasi kalender interaktif.
+- [Pelacak Kebiasaan](/): Pencatatan konsistensi kebiasaan dan penghitungan streak harian.
+- [Manajemen Keuangan & Kas](/): Pencatatan kas masuk, keluar, tabungan, dan pembuatan kwitansi PDF serta OCR struk otomatis.
+- [Target & Gol Hidup](/): Pelacakan sasaran jangka pendek dan jangka panjang dengan milestone terukur.
+- [Catatan & Memo Cepat](/): Pencatatan ide instan dengan format refleksi terstruktur.
+- [Arsip & Laporan Bulanan](/): Rekapitulasi perkembangan dan pengunduhan arsip laporan dokumen PDF.
+
+## Spesifikasi & Infrastruktur
+
+- Antarmuka: React 19, TypeScript, Tailwind CSS, Lucide Icons
+- Sinkronisasi Cloud: Supabase (PostgreSQL, Realtime Channel, Auth)
+- AI Scanner: Gemini API untuk ekstraksi data struk belanja kasir otomatis

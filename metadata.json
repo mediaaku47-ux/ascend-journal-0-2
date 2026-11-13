@@ -1,0 +1,8 @@
+{
+  "name": "Remix JournalStream - Dashboard Produktivitas",
+  "description": "Aplikasi dashboard produktivitas dan jurnal harian dengan pelacak agenda harian, pelacak kebiasaan, ringkasan finansial, dan catatan cepat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

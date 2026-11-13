@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="favLeafGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="50%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="favGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="favBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1d24"/>
+      <stop offset="100%" stop-color="#080d14"/>
+    </linearGradient>
+    <linearGradient id="favBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Squircle -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#favBgGrad)" stroke="url(#favBorderGrad)" stroke-width="2"/>
+  <!-- Teal Swoosh Leaves -->
+  <path d="M21 23C21 23 27 30 26 38C25 45 19 48 22 53C24 56 29 57 35 55C43 53 51 46 51 36C51 28 44 25 44 25C44 25 46 33 42 39C38 44 31 45 27 43C23 41 21 36 23 30C24 26 21 23 21 23Z" fill="url(#favLeafGrad)"/>
+  <!-- Golden Star -->
+  <path d="M32 10L36 22H48L38 29L42 41L32 34L22 41L26 29L16 22H28L32 10Z" fill="url(#favGoldGrad)"/>
+  <!-- Specular highlight -->
+  <circle cx="32" cy="24" r="2" fill="#fff" opacity="0.9"/>
+</svg>

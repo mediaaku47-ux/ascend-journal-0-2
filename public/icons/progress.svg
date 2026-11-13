@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none">
+  <!-- Soft circular backdrop to soften edges -->
+  <circle cx="60" cy="60" r="54" fill="#EBF9F7" />
+
+  <!-- Bar 1 (Shortest, Square) -->
+  <rect x="17" y="86" width="16" height="16" rx="4" fill="#5DC4BD" stroke="#0E3854" stroke-width="3.5" />
+
+  <!-- Bar 2 (Low-Medium) -->
+  <rect x="40" y="75" width="16" height="27" rx="4" fill="#5DC4BD" stroke="#0E3854" stroke-width="3.5" />
+
+  <!-- Bar 3 (Medium-High) -->
+  <rect x="63" y="68" width="16" height="34" rx="4" fill="#5DC4BD" stroke="#0E3854" stroke-width="3.5" />
+
+  <!-- Bar 4 (Tallest) -->
+  <rect x="86" y="50" width="16" height="52" rx="4" fill="#5DC4BD" stroke="#0E3854" stroke-width="3.5" />
+
+  <!-- Dynamic Upward Growth Arrow Shadow/Base -->
+  <polygon points="98,16 67,16 75,24 82,24 59,50 45,36 21,57 21,78 45,57 59,71 88,38 88,45 98,45" fill="#F59E0B" stroke="#0E3854" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" />
+</svg>

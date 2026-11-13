@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none">
+  <!-- Elegant Circular Badge with comfortable blue tone -->
+  <circle cx="60" cy="60" r="54" fill="#1D70B8" />
+
+  <!-- White Document Sheet with Folded Corner -->
+  <path d="M34 29C34 26 36 24 39 24H65L79 38V85C79 88 77 90 74 90H39C36 90 34 88 34 85V29Z" fill="#FFFFFF" />
+  <!-- Folded Corner Triangle -->
+  <path d="M65 24V35C65 36.6 66.4 38 68 38H79L65 24Z" fill="#E2E8F0" />
+
+  <!-- 3 Bar Chart Columns (Harmonious Blue) -->
+  <rect x="41" y="47" width="6" height="8" rx="2" fill="#1D70B8" />
+  <rect x="50" y="41" width="6" height="14" rx="2" fill="#1D70B8" />
+  <rect x="59" y="34" width="6" height="21" rx="2" fill="#1D70B8" />
+
+  <!-- 3 Bullet List Rows -->
+  <circle cx="42" cy="63" r="3" fill="#1D70B8" />
+  <rect x="48" y="61.5" width="16" height="3" rx="1.5" fill="#1D70B8" />
+
+  <circle cx="42" cy="71" r="3" fill="#1D70B8" />
+  <rect x="48" y="69.5" width="16" height="3" rx="1.5" fill="#1D70B8" />
+
+  <circle cx="42" cy="79" r="3" fill="#1D70B8" />
+  <rect x="48" y="77.5" width="16" height="3" rx="1.5" fill="#1D70B8" />
+
+  <!-- Magnifying Glass with Checkmark -->
+  <!-- Outer White Ring -->
+  <circle cx="75" cy="71" r="16.5" fill="#1D70B8" stroke="#FFFFFF" stroke-width="5" />
+  
+  <!-- Checkmark inside lens -->
+  <path d="M68.5 70.5L73.5 75.5L81 66.5" stroke="#FFFFFF" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Handle -->
+  <line x1="86.5" y1="83" x2="97" y2="93.5" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" />
+</svg>
